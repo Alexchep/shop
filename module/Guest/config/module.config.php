@@ -25,6 +25,9 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Guest\Controller\Index' => 'Guest\Controller\IndexController',
+            'Guest\Controller\About' => 'Guest\Controller\AboutController',
+            'Guest\Controller\Contacts' => 'Guest\Controller\ContactsController',
+            'Guest\Controller\Payment' => 'Guest\Controller\PaymentController',
         ),
         'factories' => array(
             'Guest\Controller\Category' => 'Guest\Factory\CategoryControllerFactory',
